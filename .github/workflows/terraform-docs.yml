@@ -16,4 +16,4 @@ jobs:
         working-dir: day1-demo
         output-file: README.md
         output-method: inject
-        # git-push: true
+        git-push: "true"
