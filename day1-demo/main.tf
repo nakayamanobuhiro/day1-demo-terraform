@@ -21,3 +21,12 @@ variable "bucket_name" {
 resource "aws_s3_bucket" "example" {
   bucket = var.bucket_name
 }
+
+variable "bucket_name_2" {
+  type    = string
+  default = "day1-demo2-521539043457"
+}
+
+resource "aws_s3_bucket" "example2" {
+  bucket = var.bucket_name_2
+}
