@@ -22,6 +22,7 @@ No modules.
 |------|------|
 | [aws_s3_bucket.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
 | [aws_s3_bucket.example2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
+| [aws_s3_bucket.example3](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
 
 ## Inputs
 
@@ -29,6 +30,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_bucket_name"></a> [bucket\_name](#input\_bucket\_name) | n/a | `string` | `"day1-demo-521539043457"` | no |
 | <a name="input_bucket_name_2"></a> [bucket\_name\_2](#input\_bucket\_name\_2) | n/a | `string` | `"day1-demo2-521539043457"` | no |
+| <a name="input_bucket_name_3"></a> [bucket\_name\_3](#input\_bucket\_name\_3) | n/a | `string` | `"day1-demo3-521539043457"` | no |
 
 ## Outputs
 
