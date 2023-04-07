@@ -34,4 +34,4 @@ jobs:
       run: tflint --init
 
     - name: Run TFLint for day1-demo
-      run: tflint -f compact --module --force day1-demo
+      run: tflint -f compact day1-demo
