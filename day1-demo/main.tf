@@ -14,9 +14,10 @@ provider "aws" {
 }
 
 variable "bucket_name" {
-  type = string
+  type    = string
+  default = "day1-demo-521539043457"
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "${var.bucket_name}"
+  bucket = var.bucket_name
 }
