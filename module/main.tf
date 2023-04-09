@@ -37,9 +37,9 @@ variable "bucket_name_3" {
 }
 
 resource "aws_s3_bucket" "example3" {
-  bucket = var.bucket_name_3
+  bucket = "${var.bucket_name_3}"
 }
 
 resource "aws_sqs_queue" "terraform_queue" {
-  name                      = "terraform-example-queue"
+  name = "terraform-example-queue"
 }
