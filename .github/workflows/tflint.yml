@@ -35,3 +35,6 @@ jobs:
 
     - name: Run TFLint for day1-demo
       run: tflint -f compact day1-demo
+
+    - name: Run TFLint for module
+      run: tflint -f compact --module module
