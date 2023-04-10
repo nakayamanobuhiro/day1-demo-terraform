@@ -13,4 +13,6 @@ provider "aws" {
   region = "ap-northeast-1"
 }
 
+data "aws_caller_identity" "current" {}
+
 resource "aws_s3_bucket" "example" {}

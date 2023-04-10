@@ -1,8 +1,8 @@
 version: 3
 automerge: true
 projects:
-  - name: day1-demo
-    dir: day1-demo
+  - name: environment
+    dir: environment
     terraform_version: v1.4.4
     autoplan:
       when_modified: ["*.tf"]

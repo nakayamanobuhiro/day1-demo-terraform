@@ -33,8 +33,8 @@ jobs:
     - name: Init TFLint
       run: tflint --init
 
-    - name: Run TFLint for day1-demo
-      run: tflint -f compact --chdir day1-demo
+    - name: Run TFLint for environment
+      run: tflint -f compact --chdir environment
 
     - name: Run TFLint for module
-      run: tflint -f compact --module --chdir module
+      run: tflint -f compact --chdir module --module
