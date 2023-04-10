@@ -8,9 +8,7 @@
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 4.0 |
+No providers.
 
 ## Modules
 
@@ -18,9 +16,7 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_s3_bucket.example](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
+No resources.
 
 ## Inputs
 
